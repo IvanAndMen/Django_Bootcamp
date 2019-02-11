@@ -1,0 +1,32 @@
+/* the '.' tells us that firstDiv is a class */
+.firstDiv{
+  color:blue;
+}
+
+.secondDiv{
+  color:red;
+}
+
+#singledout{
+  color:green;
+  text-decoration: line-through;
+}
+
+/* Select all the elements in the HTML*/
+*{
+  color:black;
+}
+
+/* Select all the ul elements right after a h3 element and do what has to be done */
+h3 + ul{
+  border:4px dotted purple
+}
+
+li a{
+  color:red;
+}
+
+li a[href="wwww.npr.org"]{
+  color:blue;
+  border: 5px solid orange;
+}
